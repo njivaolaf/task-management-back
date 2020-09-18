@@ -1,0 +1,32 @@
+{
+    "name": "task-management-back",
+    "version": "1.0.0",
+    "description": "nvm use 12 npm init",
+    "main": "index.js",
+    "scripts": {
+        "start:dev": "nodemon .",
+        "start": "node .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/phbord/task-management-back.git"
+    },
+    "author": "phbord",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/phbord/task-management-back/issues"
+    },
+    "homepage": "https://github.com/phbord/task-management-back#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "express-form-data": "^2.0.14",
+        "jfs": "^0.3.0",
+        "node-localstorage": "^2.1.6",
+        "os": "^0.1.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
